@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F01CBB229E738D40013F0C8 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01CBB129E738D40013F0C8 /* DesempenhoViewController.swift */; };
 		9FC55FA529D49A460094360F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55FA429D49A460094360F /* AppDelegate.swift */; };
 		9FC55FA729D49A460094360F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55FA629D49A460094360F /* SceneDelegate.swift */; };
 		9FC55FA929D49A460094360F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55FA829D49A460094360F /* ViewController.swift */; };
 		9FC55FAC29D49A460094360F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC55FAA29D49A460094360F /* Main.storyboard */; };
 		9FC55FAE29D49A470094360F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC55FAD29D49A470094360F /* Assets.xcassets */; };
 		9FC55FB129D49A470094360F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC55FAF29D49A470094360F /* LaunchScreen.storyboard */; };
+		9FF4A0D229DDDA63005AC8FD /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4A0D129DDDA63005AC8FD /* Questao.swift */; };
+		9FFAB74429DC883500D4AE84 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAB74329DC883500D4AE84 /* QuestaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F01CBB129E738D40013F0C8 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
 		9FC55FA129D49A460094360F /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC55FA429D49A460094360F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC55FA629D49A460094360F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		9FC55FAD29D49A470094360F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC55FB029D49A470094360F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC55FB229D49A470094360F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF4A0D129DDDA63005AC8FD /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		9FFAB74329DC883500D4AE84 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F01CBB329E748100013F0C8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9FC55FA829D49A460094360F /* ViewController.swift */,
+				9FFAB74329DC883500D4AE84 /* QuestaoViewController.swift */,
+				9F01CBB129E738D40013F0C8 /* DesempenhoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9F01CBB429E748300013F0C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4A0D129DDDA63005AC8FD /* Questao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9FC55F9829D49A460094360F = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +80,10 @@
 		9FC55FA329D49A460094360F /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				9F01CBB429E748300013F0C8 /* Models */,
+				9F01CBB329E748100013F0C8 /* ViewController */,
 				9FC55FA429D49A460094360F /* AppDelegate.swift */,
 				9FC55FA629D49A460094360F /* SceneDelegate.swift */,
-				9FC55FA829D49A460094360F /* ViewController.swift */,
 				9FC55FAA29D49A460094360F /* Main.storyboard */,
 				9FC55FAD29D49A470094360F /* Assets.xcassets */,
 				9FC55FAF29D49A470094360F /* LaunchScreen.storyboard */,
@@ -141,6 +166,9 @@
 				9FC55FA929D49A460094360F /* ViewController.swift in Sources */,
 				9FC55FA529D49A460094360F /* AppDelegate.swift in Sources */,
 				9FC55FA729D49A460094360F /* SceneDelegate.swift in Sources */,
+				9FF4A0D229DDDA63005AC8FD /* Questao.swift in Sources */,
+				9F01CBB229E738D40013F0C8 /* DesempenhoViewController.swift in Sources */,
+				9FFAB74429DC883500D4AE84 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
